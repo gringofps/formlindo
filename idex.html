@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forme de registro com validação js</title>
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <div id="main-container">
+        <h1>cadastre-se para acessar o sistema </h1>
+        <form id="register-form">
+            <div class="half-box spacing ">
+                <label for="name">nome</label>
+                <input tipe="text" name="name" id="name" placeholder="digite seu nome ">
+            </div>
+            <div class="half-box">
+                <label for="lastname">sobrenome</label>
+                <input tipe="text" name="lastname" id="sobrenome" placeholder="digite seu sobrenome ">
+            </div>
+            <div class="full-box">
+                <label for="email">email</label>
+                <input tipe="email" name="email" id="email" placeholder="digite seu e-mail">
+            </div>
+            <div class="half-box spacing">
+                <label for="idade">idade</label>
+                <input tipe="number" name="idade" id="idade" placeholder="digite sua idade">
+            </div>
+            <div class="half-box spacing">
+                <label for="sexo">sexo</label>
+                <br>
+                <select name="sexo">
+                    <option value="ma">masculino</option>
+                    <option value="fe">feminino</option>
+                </select>
+            </div>
+            <div class="full-box">
+                <label for="">Data de nascimento</label>
+                <input type="date">
+                <br>
+            </div>
+            <div class="half-box spacing">
+                <label for="telefone">telefone</label>
+                <input tipe="tel" name="telefone" id="telefone" placeholder="digite seu telefone">
+            </div>
+            <div class="half-box spacing">
+                <label for="estado (uf)">estado</label>
+                <br>
+                
+                <select name="estados-brasil">
+                  <option value="AC">Acre</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                <option value="AL">Alagoas</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                 <option value="SP">São Paulo</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>> 
+                </select>
+            </div>
+            <div class="half-box">
+                <label for="cidade">cidade</label>
+                <input tipe="text" name="cidade" id="cidade" placeholder="digite sua cidade">
+            </div>
+            <div class="full-box">
+                <label for="Rua">rua</label>
+                <input tipe="text" name="Rua" id="Rua" placeholder="digite sua rua">
+            </div>
+            <div class="half-box spacing">
+                <label for="número da casa">número da casa</label>
+                <input tipe="number" name="número da casa " id="número da casa" placeholder="digite o número da sua residencia">
+            </div>
+            <div class="half-box spacing">
+                <label for="cor preferida">cor preferida </label>
+                <input tipe="color" name="cor preferida" id="cor preferida" placeholder="digite sua cor preferida">
+            </div>
+            <div class="half-box">
+                <label for="fluência linguìstìca"> fluencia linguística</label>
+                <input tipe="checkbox" name="fluência linguìstìca" id="fluência linguìstìca" placeholder="quais idomas você tem dóminio">
+            </div>
+            <div class="full-box">
+                <label for="facebook">facebook </label>
+                <input tipe="url" name="facebook" id="facebook" placeholder="informe seu facebook">
+            </div>
+            <div class="full-box">
+                <label for="instagram">instagram </label>
+                <input tipe="url" name="instagram" id="instagram" placeholder="informe o seu instagram ">
+            </div>
+            <div class="full-box">
+                <label for="experiências profissionais">experiências </label>
+                <input tipe="textarea" name="experiências profissionais" id="experiências profissionais" placeholder="conte-nos suas experiênciass ">
+            </div>
+            <div class="half-box spacing">
+                <label for="satifação pessoal">satifação</label>
+                <input tipe="range" name="satifação pessoal" id="satifação pessoal" placeholder="satifação  de 1-10">
+            </div>
+            <div class="half-box spacing">
+                <label for="satifação profissional"> satifação profissional </label>
+                <input tipe="range" name="satifação profissional" id="satifação profissional" placeholder="satifação de 1-10 ">
+            </div>
+            <div class="half-box spacing">
+                <label for="password  ">senha  </label>
+                <input tipe="password" name="password" id="password" placeholder="digite sua senha ">
+            </div>
+            <div class="half-box spacing" >
+                <label for="passwordconfirm">confirmar senha  </label>
+                <input tipe="password" name="passwordconfirm" id="passwordconfirm" placeholder="confirme sua senha ">
+            </div>
+            <form action="">
+            <div class="half-box">
+                <label for="file"> coloque uma foto de perfil</label>
+                <input tipe="file" name="flimage" id="image/">
+            </div>
+            <div class="full-box">
+                <input type="checkbox" name="agrement" id="agrement">
+                <label for="agrement" id="agrement-label">eu li e aceito os<a href="#"> termos de uso</a/label>
+            </div> 
+            <div class="full-box">
+                <input type="submit"  id="btn-submit" value="registrar">
+        </form>
+        </div>
+        <p class="error-validation template"></p>
+        <script src="js/script.js"></script>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/script.js"></script> 
+</body>
+</html>
